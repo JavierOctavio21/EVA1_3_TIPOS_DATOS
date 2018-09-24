@@ -1,0 +1,19 @@
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+int main() {
+
+    int iArreglo;
+    int iArregloByte;
+    
+    iArreglo = 189128960; //UN ARREGLO DE 4GB
+
+    iArregloByte = 302021600; //UN ARREGLO DE 1GB
+
+    cout << "Hola Mundo ";
+    cout << iArregloByte << endl;
+
+    return 0;
+}
